@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+main{
+	width: 100%;
+	min-height:  500px; 
+}
+.gach-chan{
+	border-bottom: 2px solid darkred;
+	
+}
+.text-do{
+	color: darkred;
+}
+.vien{
+    border: 1px solid darkred;
+	padding: 10px;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+}
+.icon{
+	position: absolute;
+	color: white;
+	display: flex;
+	width: 80%;
+	height: 40px;
+	left: 10%;
+	top: -15%;
+	justify-content: space-around;
+	transition: all 1s;
+}
+.icon a{
+	width: 40px;
+	height: 40px;
+	background-color: darkred;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: white;
+}
+.icon a:hover{
+	background-color: gray;
+	color: darkred;
+}
+.vien:hover .icon{
+top: 40%
+}
+#feature{
+	width: 100%;
+	min-height: 600px;
+	background-image: url("../images/bg2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+}
+.pt-30{
+	padding-top: 30px;
+}
+.vien-trang{
+	width: 100%;
+	border: 1px solid white;
+	text-align: center;
+	padding: 20px;
+}
+.vien-trang a{
+	text-decoration: none;
+	color: darkred;
+}
+.vien-trang a:hover{
+	color: white;
+	cursor: pointer;
+}
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+.menu{
+	padding-top: 16px;
+}
+.menu ul li a{
+	padding: 10px 25px;
+	text-decoration: none;
+	color: #363636;
+	border-radius: 20px;
+}
+.menu ul li a:hover{
+	background-color: darkred;
+	color: white;
+	
+}
+#contact{
+	width: 100%;
+	min-height: 600px;
+	background-image: url("../images/Banner2.png");
+	background-repeat: cover;
+	background-position: center;
+}
+#contact1{
+	width: 100%;
+	min-height: 600px;
+	}
+.shadow{
+	border: 1px solid gray;
+	width: 100%;
+	min-height: 300px;
+	box-shadow: 5px 5px 5px gray;
+	padding: 30px;
+	
+}
+.form-control{
+	padding: 8px;
+	margin-bottom: 10px;
+	width: 100%;
+	
+}
+.ss{
+	padding-top: 10px;
+}
+.ss a{
+	margin-right: 10px;
+}
+.ss ul li a{
+	padding: 10px 25px;
+	text-decoration: none;
+	color: darkred;
+	border-radius: 20px;
+}
+.img-100{ 
+	max-width: 100%; 
+	height: auto;
+}
+.img-70{ 
+	max-width: 50%; 
+	height: 50%;
+	display: block;
+     margin-left: 5%;
+}
+.logo{
+	max-width: 20%;
+	padding-top: 15px; 
+}
+aside{
+	width: 30%;
+	padding: 15px;
+	min-height: 500px;
+	
+}
+input{
+	font-family: 'Signika', sans-serif;font-size: 16px;color: #666666;margin: 0;
+}
+textarea{
+	font-family: 'Signika', sans-serif;font-size: 16px;color: #666666;margin: 0;
+}
+
